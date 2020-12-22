@@ -1,1 +1,26 @@
 @include reset;
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $Dark-cyan;
+    background-image: url('/dist/img/bg-pattern-top.svg'), url('/dist/img/bg-pattern-bottom.svg');
+    background-position: -100% 170%, 190% -180%;
+    background-repeat: no-repeat, no-repeat;
+    height: 100vh;
+
+    .card{
+
+        border-radius: 20px;
+        min-width: 400px;
+        min-height: 200px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .top{
+            img{
+              
+              object-fit:cover;
+             border-radius: 21px;
+            }
+        }
+    } 
+}
