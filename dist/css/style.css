@@ -40,7 +40,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   background-color: #19a2ae;
-  background-image: url("dist/img/bg-pattern-top.svg"), url("dist/img/bg-pattern-bottom.svg");
+  background-image: url("/dist/img/bg-pattern-top.svg"), url("/dist/img/bg-pattern-bottom.svg");
   background-position: -100% 170%, 190% -180%;
   background-repeat: no-repeat, no-repeat;
   height: 100vh;
